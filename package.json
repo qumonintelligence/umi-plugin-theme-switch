@@ -20,6 +20,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
+    "prepare": "father-build",
     "start": "cross-env APP_ROOT=$PWD/example umi dev",
     "start:basic": "cross-env APP_ROOT=$PWD/examples/basic umi dev",
     "build": "father-build",
